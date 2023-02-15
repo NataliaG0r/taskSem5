@@ -47,7 +47,40 @@ System.Console.WriteLine($"количество чётных чисел в ма�
 
 // [-4, -6, 89, 6] -> 0
 
+int[] CreateArray(int size)
+{
+    int[] array = new int[size];
+    var rand = new Random();
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = rand.Next(-100, 100);
+    }
+    return array;
+}
 
+void ShowArray(int[] array)
+{
+    System.Console.WriteLine("[" + string.Join(", ", array) + "]");
+}
+
+int SumOddPosition(int[] array)
+{
+    int sum = 0;
+    for (int i = 1; i < array.Length; i++)
+    {
+        if (i% 2!= 0)
+        {
+            sum=sum+array[i];
+        }
+    }
+    return sum;
+}
+
+
+
+int[] Array1 = CreateArray(4);
+ShowArray(Array1);
+System.Console.WriteLine($"сумма элементов, стоящих на нечётных позициях равна {SumOddPosition(Array1)}");
 
 // Задача 38: Задайте массив вещественных чисел. 
 // Найдите разницу между максимальным и минимальным элементов массива.
