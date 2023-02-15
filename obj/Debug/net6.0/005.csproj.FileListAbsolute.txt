@@ -1,0 +1,15 @@
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\bin\Debug\net6.0\005.exe
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\bin\Debug\net6.0\005.deps.json
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\bin\Debug\net6.0\005.runtimeconfig.json
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\bin\Debug\net6.0\005.dll
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\bin\Debug\net6.0\005.pdb
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.csproj.AssemblyReference.cache
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.AssemblyInfoInputs.cache
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.AssemblyInfo.cs
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.csproj.CoreCompileInputs.cache
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.dll
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\refint\005.dll
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.pdb
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\005.genruntimeconfig.cache
+D:\Nata\Nata_QA\1_3_programing_languages_intro\seminars_HT\005\obj\Debug\net6.0\ref\005.dll
