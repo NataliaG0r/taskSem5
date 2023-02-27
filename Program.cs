@@ -95,7 +95,7 @@ double[] CreateArray(int size, int minValue, int maxValue)
 
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = Math.Round((rand.Next(minValue, maxValue) + rand.NextDouble()),2);
+        array[i] = Math.Round((rand.Next(minValue, maxValue) + rand.NextDouble()), 2);
     }
     return array;
 }
@@ -105,27 +105,25 @@ void ShowArray(double[] array)
     System.Console.WriteLine("[" + string.Join(", ", array) + "]");
 }
 
- double Delta (double[] array)
- {
-     for (int i = 1; i < array.Length; i++)
-    {
-        double min = array[0];
-        if (array[i] >= min)
-            continue;     }
+void Delta(double[] array, out double max, out double min)
+{
+    min = array[0];
+    max = array[0];
     for (int i = 1; i < array.Length; i++)
-     {
-        double max=array[0];
-        if  (array[i] > max)
-         max = array[i];
-     }
-     double raznica = max-min;
-     return raznica;
- }
+    {
+
+        if (array[i] < min)
+            min = array[i];
+            else if (array[i] > max)
+            max = array[i];
+
+
+}}
 
 double[] NewArray = CreateArray(10, 1, 10);
 ShowArray(NewArray);
- double Delta (NewArray);
-System.Console.WriteLine($"разница между максимальным элементом {max} и минимальным элементом {min} массива будет равна {raznica}");
+ Delta(NewArray, out double max, out double min);
+System.Console.WriteLine ($"разница между максимальным элементом {max} и минимальным элементом {min} массива будет равна {(max - min)}");
 
 
 
